@@ -1,0 +1,110 @@
+/*Import*/
+@font-face {
+    font-family: "BadScript";
+    src: url("badscript-regular-webfont.eot");
+    src: url("badscript-regular-webfont.woff") format("woff"),
+    url("badscript-regular-webfont.otf") format("opentype"),
+    url("badscript-regular-webfont.svg") format("svg");
+}
+/*Element Styling*/
+body{
+    font-family: 'BadScript', sans-serif;
+    margin-top: 150px;
+    padding-bottom: 880px;
+}
+h1{
+    color: #727272;    
+    letter-spacing: .1em;
+}
+h2{
+    color: #727272;
+    letter-spacing: .05em;
+}
+h3{
+    color: rgb(0, 0, 0);
+    letter-spacing: .1em;
+}
+p{
+    color: rgb(0, 0, 0);
+    letter-spacing: .05em;
+}
+a{
+    color: rgb(0, 0, 0);
+    letter-spacing: .05em;
+}
+/*Classes*/
+.logo{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 10px;
+    top: 0px;
+}
+.header{
+    position: absolute;
+    left: 170px;
+    top: 15px;
+    line-height: 35px;
+}
+.tabLink{
+    position: absolute;
+}
+.tabLinkText{
+    position: absolute;
+    top: -75px;
+    left: 50px;
+    font-size: 80px;
+    letter-spacing: .1em;
+    color: #fae6e7;
+}
+.tabLinkText2{
+    position: absolute;
+    top: 112px;
+    left: 50px;
+    font-size: 80px;
+    letter-spacing: .1em;
+    color: #fae6e7;
+}
+.tabLinkText3{
+    position: absolute;
+    top: 295px;
+    left: 50px;
+    font-size: 80px;
+    letter-spacing: .1em;
+    color: #fae6e7;
+}
+.tabLinkText4{
+    position: absolute;
+    top: 478px;
+    left: 50px;
+    font-size: 80px;
+    letter-spacing: .1em;
+    color: #fae6e7;
+}
+.tabLinkImage{
+    display:block
+}
+.linkedin{
+    position:absolute;
+    top: 900px;
+    left: 150px;
+    background-color: #ffacbf;
+    padding: 5px 10px;
+    border-radius:10px;
+    color: #353535;
+}
+.github{
+    position: absolute;
+    top: 900px;
+    left: 300px;
+    background-color: #ffacbf;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: #353535;
+}
+.footer{
+    position: absolute;
+    top: 1000px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
