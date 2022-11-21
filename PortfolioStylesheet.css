@@ -9,8 +9,6 @@
 /*Element Styling*/
 body{
     font-family: 'BadScript', sans-serif;
-    margin-top: 150px;
-    padding-bottom: 880px;
 }
 h1{
     color: #727272;    
@@ -33,6 +31,10 @@ a{
     letter-spacing: .05em;
 }
 /*Classes*/
+.bodyHome{
+    margin-top: 150px;
+    padding-bottom: 880px;
+}
 .logo{
     width: 150px;
     height: 150px;
@@ -107,4 +109,17 @@ a{
     top: 1000px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10px;
+}
+/*COMING SOON PAGE*/
+.ComeSoonLogo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+}
+.ComeSoonh1{
+    text-align: center;
+}
+.ComeSoonh2{
+    text-align: center;
 }
