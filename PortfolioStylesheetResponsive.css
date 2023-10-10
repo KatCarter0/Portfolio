@@ -54,13 +54,21 @@ a{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 450px;
+    width: 200px;
 }
 .ComeSoonh1{
     text-align: center;
 }
 .ComeSoonh2{
     text-align: center;
+}
+.ComeSoonHomeTab{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ff7998;
+    padding: 5px 10px;
+    border-radius:10px
 }
 /*Phone Media Query*/
 @media (max-width: 480px) {
@@ -124,6 +132,7 @@ a{
     padding: 5px 10px;
     border-radius:10px;
     color: #353535;
+    font-family: 'hanken', sans-serif;
 }
 .github{
     width: fit-content;
@@ -133,6 +142,7 @@ a{
     padding: 5px 10px;
     border-radius:10px;
     color: #353535;
+    font-family: 'hanken', sans-serif;
 }
 }
 /*Tablet Media Query*/
@@ -167,6 +177,7 @@ a{
     padding: 5px 10px;
     border-radius:10px;
     color: #353535;
+    font-family: 'hanken', sans-serif;
 }
 .github{
     display: inline-block;
@@ -175,6 +186,7 @@ a{
     padding: 5px 10px;
     border-radius:10px;
     color: #353535;
+    font-family: 'hanken', sans-serif;
 }
 }
 /*Laptop Media Query*/
@@ -211,6 +223,7 @@ a{
     position: absolute;
     left: 70%;
     top: 300px;
+    font-family: 'hanken', sans-serif;
 }
 .github{
     display: inline-block;
@@ -222,6 +235,7 @@ a{
     position: absolute;
     left: 70%;
     top: 400px;
+    font-family: 'hanken', sans-serif;
 }
 }
 /*Desktop Media Query*/
@@ -260,6 +274,7 @@ a{
     padding: 5px 10px;
     border-radius:10px;
     color: #353535;
+    font-family: 'hanken', sans-serif;
 }
 .github{
     display: inline-block;
@@ -268,5 +283,6 @@ a{
     padding: 5px 10px;
     border-radius:10px;
     color: #353535;
+    font-family: 'hanken', sans-serif;
 }
 }
